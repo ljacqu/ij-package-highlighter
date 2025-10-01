@@ -11,5 +11,10 @@
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.github.ljacqu.ijpackagehighlighter.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
         <postStartupActivity implementation="com.github.ljacqu.ijpackagehighlighter.startup.MyProjectActivity" />
+        <annotator language="JAVA" implementationClass="com.github.ljacqu.ijpackagehighlighter.startup.PackageHighlighter"/>
+        <!-- application-level configurable (Settings -> Appearance & Behavior -> ... ) -->
+        <applicationConfigurable id="package.highlighter"
+                                 displayName="Package-based type highlighter"
+                                 instance="com.github.ljacqu.ijpackagehighlighter.config.PackageHighlightConfigurable"/>
     </extensions>
 </idea-plugin>
