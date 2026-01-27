@@ -12,7 +12,7 @@
 - [ ] Configure the [CODECOV_TOKEN](https://docs.codecov.com/docs/quick-start) secret for automated test coverage reports on PRs
 
 <!-- Plugin description -->
-Highlights classes in the editor based on their package, so that they can be distinguished.
+Highlights classes in the editor based on their package, so that they can be distinguished visually.
 <!-- Plugin description end -->
 
 
